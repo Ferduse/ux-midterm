@@ -2,14 +2,14 @@ import Home from './components/Home';
 import Request from './components/Request';
 import Reviews from './components/Reviews';
 import About from './components/About';
-import navbar from './components/navbar';
-
-
+import MuiNavbar from './components/navbar';
+import Footer from './components/footer';
+import React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import { Routes, Route, Outlet, Link } from "react-router-dom"; 
 import { Container, Typography } from '@mui/material';
-import { MuiNavbar } from './components/navbar';
+// import { MuiNavbar } from './components/navbar';
 
 
 export default function App() {
@@ -18,10 +18,12 @@ export default function App() {
     <MuiNavbar />
       <Routes>
         <Route index element={<Home />} />
-        <Route path='request' element={<Request />} />
-        <Route path='reviews' element={<Reviews />} />
-        <Route path='about' element={<About />} />
+        <Route path='Request' element={<Request />} />
+        <Route path='Reviews' element={<Reviews />} />
+        <Route path='About' element={<About />} />
       </Routes>
+      <Footer />
+
     </div>
   );
 }
@@ -60,28 +62,3 @@ export default function App() {
 
 
 
-// const navStyle = {textDecoration: "none", color:"#967969"};
-// function Layout() {
-//   return (
-//     <div>
-//       <nav>
-//         <ul>
-//           <li>
-//             <Link style={navStyle} to="/">Home</Link>
-//           </li>
-//           <li>
-//             <Link style={navStyle} to="/About">About</Link>
-//           </li>
-//           <li>
-//             <Link style={navStyle} to="/Request">Request</Link>
-//           </li>
-//           <li>
-//             <Link style={navStyle} to="/Reviews">Reviews</Link>
-//           </li>
-//         </ul>
-//       </nav>
-//       <hr />
-//       <Outlet />
-//     </div>
-//   );
-// }

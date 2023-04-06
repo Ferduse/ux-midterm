@@ -8,6 +8,10 @@ import Grid from '@mui/material/Grid';
 import doctor1 from './img/doctor1.jpeg';
 import doctor4 from './img/doctor4.jpeg';
 import doctor3 from './img/doctor3.jpeg';
+import office from './img/office.png';
+import office2 from './img/office2.jpeg';
+import office3 from './img/office3.jpeg';
+import office4 from './img/office4.jpeg';
 
 import Image from 'mui-image'
 

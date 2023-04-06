@@ -20,27 +20,32 @@ import smile5 from './img/smile5.jpg'
 
 
 const theme = createTheme({
-    palette: {
-      primary: {
-        main: "#187bcd",
-      },
-      secondary: lightBlue,
+  palette: {
+    primary: {
+      main: "#187bcd",
+      text: "#6D6875"
     },
-    typography: {
-      fontFamily: "Roboto",
-      h1: {
-        fontSize: "3rem",
-        fontWeight: 600,
-      },
-      h2: {
-        fontSize: "1.75rem",
-        fontWeight: 600,
-      },
-      h3: {
-        fontSize: "1.30rem",
-        fontWeight: 500,
-      },
+    secondary: lightBlue,
+  },
+  typography: {
+    fontFamily: "Arial",
+    h1: {
+      fontSize: "3rem",
+      fontWeight: 600,
+    },
+    h2: {
+      fontSize: "1.75rem",
+      fontWeight: 600,
+    },
+    h3: {
+      fontSize: "1.350rem",
+      fontWeight: 500,
+    },
+    h4: {
+      textAlign: "start",
+      fontSize: "1.90rem",
     }
+  }
 });
 
 
@@ -58,12 +63,14 @@ function Home() {
             Glass Skin Dermatology
           </Typography>
           <Typography 
-          variant='h3'
-          sx={{my:5, textAlign: "center", color: "secondary"}}
+          variant='h4'
+          sx={{my:5, textAlign: "center", color: "primary.text"}}
           >
             We are located at the heart of SoHo, NYC
             <br></br>
-            Call us at 7185556458
+              Call us at <Typography variant='h2' sx={{color:"primary.main"}} >(718) 555-6458 
+
+              </Typography>
 
           </Typography>
             <Image src={smile3} />

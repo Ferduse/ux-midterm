@@ -38,7 +38,7 @@ function Reviews(){
   return( 
    <ThemeProvider theme={theme}>
             <Container>
-              <Typography variant='h2'
+              <Typography variant='h4'
                 sx={{my:7, textAlign: "center", color: "primary.main"}}
 
               >
@@ -53,7 +53,7 @@ function Reviews(){
                 sx={{my: 2, justifyItems: "center"}}
 
               />
-              <Typography variant='h4' sx={{color: "primary.text"}}>
+              <Typography variant='h3' sx={{color: "primary.text"}}>
                 "I honestly love this office! They are friendly both on the phone and in person. 
                 Accommodating when I need to change my scheduled appointment. 
 
@@ -68,12 +68,12 @@ function Reviews(){
               <Rating 
                 size='large'
                 readOnly
-                value={5}
+                value={4}
                 max={5}
                 sx={{my: 2, justifyItems: "center"}}
 
               />
-              <Typography variant='h4' sx={{color: "primary.text"}}>
+              <Typography variant='h3' sx={{color: "primary.text"}}>
                 I think they are all great, intelligent, and good doctors. They listen to you and raise good points. I have been 
                 coming here for years! I love their services and attitude. I will always come back! 
 
@@ -91,9 +91,9 @@ function Reviews(){
                 sx={{my: 2, justifyItems: "center"}}
 
               />
-              <Typography variant='h4'sx={{color: "primary.text"}}>
-                After years of coping with my horrible cystic acne, I finally visited Dr. Denora. She gave me a specific treatment designed to improve my skin.
-                After following her instructions, my skin has improved tremendously! Super grateful for Dr. Denora! 
+              <Typography variant='h3'sx={{color: "primary.text"}}>
+                After years of coping with my horrible cystic acne, I finally visited Dr. Love. She gave me a specific treatment designed to improve my skin.
+                After following her instructions, my skin has improved tremendously! Super grateful for Dr. Love! 
               </Typography>
               </Container>
               <Box sx={{ m: 3 }}></Box>
@@ -103,7 +103,7 @@ function Reviews(){
 
               <Box sx={{ m: 3 , alignItems: "center"}}>
                 <Button variant="contained" size='large'>
-                  See More
+                  View More
                 </Button>
               </Box>
 

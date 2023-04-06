@@ -170,9 +170,11 @@ export const MuiNavbar = () => {
                 <IconButton href="/" size='large' edge='start' color='inherit' aria-label='logo'>
                     <LocalHospitalIcon />
                 </IconButton>
-                <Typography variant="h5" component='div' sx={ {flexGrow: 1}}>
+                
+                <Typography href="/" variant="h5" component='div' sx={ {flexGrow: 1}}>
                     Glass Skin Dermatology
                 </Typography>
+                
                 <Stack direction='row' spacing={3}>
                     <Button color='inherit' component={Link} to={'/about'}>About</Button>
 

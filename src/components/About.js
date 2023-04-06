@@ -77,6 +77,17 @@ function About(){
             <Divider variant="middle" />
             <Box sx={{ m: 3 }}></Box>
 
+
+            <Grid container my={4} spacing={4}>
+              <Grid item xs={6}>
+              <Typography variant='h4' sx={{color: "primary.main"}}>
+              Our Office
+            
+            </Typography>
+                  
+                <Image src={office} />
+              </Grid>
+            </Grid>
             
             <Typography variant='h2'
             sx={{my:2, textAlign: "center", color: "primary.main"}}>

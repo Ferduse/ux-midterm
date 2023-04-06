@@ -30,6 +30,7 @@ const theme = createTheme({
 });
 
 function Request(){
+  return( 
     <ThemeProvider theme={theme}>
         <Container>
             <Typography variant='h1'
@@ -42,6 +43,7 @@ function Request(){
         </div>
 
     </ThemeProvider>
-}
+  );
+};
 
 export default Request;

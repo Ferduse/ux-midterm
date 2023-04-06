@@ -30,6 +30,7 @@ const theme = createTheme({
 });
 
 function Reviews(){
+  return( 
     <><div>
         <h2>hey</h2>
     </div><ThemeProvider theme={theme}>
@@ -44,6 +45,7 @@ function Reviews(){
             </div>
 
         </ThemeProvider></>
-}
+  );
+};
 
 export default Reviews;

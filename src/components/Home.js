@@ -11,6 +11,8 @@ import smile from './img/smiling-woman.jpeg'
 import smile2 from './img/smile2.jpeg'
 import smile3 from './img/smile3.webp'
 import smile4 from './img/smile4.jpeg'
+import smile5 from './img/smile5.jpg'
+
 
 
 // import MuiImageSlider from 'mui-image-slider';
@@ -57,9 +59,10 @@ function Home() {
           </Typography>
           <Typography 
           variant='h3'
-          sx={{my:4, textAlign: "center", color: "secondary"}}
+          sx={{my:5, textAlign: "center", color: "secondary"}}
           >
-            We are located at the heart of SoHo, NYC |
+            We are located at the heart of SoHo, NYC
+            <br></br>
             Call us at 7185556458
 
           </Typography>
@@ -81,24 +84,24 @@ function Home() {
               </Typography>
 
             </Box>
-
-            <Box
+              
+            <Box 
               sx={{
-                height: 90,
-                display: "flex",
-                justifyContent: "center",
+                //height: 500,
+                //display: "flex",
+                //justifyContent: "center",
                 alignItems: "left",
-                flexDirection: "column",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
+                //flexDirection: "column",
+                //backgroundPosition: "center",
+                //backgroundRepeat: "no-repeat",
+                //backgroundSize: "cover",
               }}
-              Image src={smile3} 
+               
             >
             
-
+            <Image src={smile5} />
             </Box>
-
+            <Image src={smile5} />
             
 
         </Container>

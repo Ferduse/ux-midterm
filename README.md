@@ -1,4 +1,4 @@
-# UX/UI Midterm - Healthcare Practive Website
+# UX/UI Midterm - Healthcare Practice Website
 
 ## What kind of healthcare provider is your client? 
 My client is a dermatology healthcare provider. 

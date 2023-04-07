@@ -101,7 +101,7 @@ function Reviews(){
 
 
 
-              <Box sx={{ m: 3 , alignItems: "center"}}>
+              <Box textAlign={'center'} sx={{ m: 3 , alignItems: "center"}}>
                 <Button variant="contained" size='large'>
                   View More
                 </Button>

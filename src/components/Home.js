@@ -39,7 +39,7 @@ const theme = createTheme({
   typography: {
     fontFamily: "Arial",
     h1: {
-      fontSize: "3rem",
+      fontSize: "5rem",
       fontWeight: 600,
     },
     h2: {
@@ -53,6 +53,10 @@ const theme = createTheme({
     h4: {
       textAlign: "start",
       fontSize: "1.90rem",
+    },
+    h6: {
+      fontSize: "2rem",
+      fontWeight: 600,
     }
   }
 });
@@ -71,7 +75,7 @@ function Home() {
           >
             Glass Skin Dermatology
           </Typography>
-          <Typography variant='h2' sx={{textAlign:'center',fontStyle:'italic', color:'primary.hover'}}>
+          <Typography variant='h6' sx={{textAlign:'center',fontStyle:'italic', color:'primary.hover'}}>
 
             Let your skin shine
             <Box sx={{ m: 3 }}></Box>
@@ -101,7 +105,7 @@ function Home() {
 
             <Box>
               <Typography
-              variant='h2' sx={{my:7, textAlign: "center", color: "primary.main"}}
+              variant='h2' sx={{my:7,fontStyle: 'italic', textAlign: "center", color: "primary.main"}}
               >
                     Trust your skin to us
               </Typography>
@@ -195,6 +199,8 @@ function Home() {
                   View More
                 </Button>
               </Box>
+              <Box sx={{ m:9}}></Box>
+
               <Divider variant="middle" />
 
       

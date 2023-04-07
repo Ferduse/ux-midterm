@@ -59,7 +59,7 @@ function About(){
               Our practice is to state-of-the-art, patient-centered care that is appropriate and convenient. Our priorities are ensuring patient safety and providing effective treatments.
               We provide services in general dermatology, pediatric dermatology, skin laser surgery, and cosmetic dermatology.
               All of our physicians are board certified by the American Board of Dermatology.
-              We accept most insurances. Our providers and staff speak multiple languages. We open early and have evening and weekend hours in clean and modern facilities.
+              We accept most insurances. We open early and have evening and weekend hours in clean and modern facilities.
 
             </Typography>
 
@@ -76,19 +76,47 @@ function About(){
 
             <Divider variant="middle" />
             <Box sx={{ m: 3 }}></Box>
+            <Typography variant='h4' sx={{color: "primary.main"}}>
+              Our Office
+              </Typography>
 
+              <Typography variant='h5'sx={{my:2,color: "primary.text"}}>
+              We always keep offices spotless and polished. We know that COVID19 has been affecting all of us so our team went above and beyond to 
+              ensure the safety of our patients and staff by deep cleaning our facilities everyday 
+              </Typography>
 
             <Grid container my={4} spacing={4}>
               <Grid item xs={6}>
-              <Typography variant='h4' sx={{color: "primary.main"}}>
-              Our Office
-            
-            </Typography>
-                  
                 <Image src={office} />
               </Grid>
+
+              <Grid item xs={6}>
+              <Image src={office2} />
+              </Grid>
+
+              <Grid item xs={6}>
+              <Image src={office3} />
+              </Grid>
+
+              <Grid item xs={6}>
+              <Image src={office4} />
+              </Grid>
             </Grid>
-            
+
+            <Box sx={{ m: 7 }}></Box>
+            <Divider variant="middle" />
+            <Box sx={{ m:7 }}></Box>
+
+            <Typography variant='h4' sx={{color: "primary.main"}}>
+              Our Providers
+              </Typography>
+
+              <Typography variant='h5'sx={{my:2,color: "primary.text"}}>
+              We strive to be accessible to our patients. Our providers and staff speak multiple languages and are 
+              sensitive to our patients cultural backgrounds.
+              </Typography>
+              <Box sx={{ m:7 }}></Box>
+
             <Typography variant='h2'
             sx={{my:2, textAlign: "center", color: "primary.main"}}>
             
@@ -196,6 +224,8 @@ Dr. Love has a clinical and research interest in the quality of life impact of d
             <Box sx={{ m: 3 }}></Box>
             <Divider variant="middle" />
             
+            <Divider variant="middle" />
+            <Box sx={{ m: 3 }}></Box>
 
         </Container>
 

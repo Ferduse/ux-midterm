@@ -67,12 +67,17 @@ function Request(){
 
             </Typography>
 
+            <Box sx={{ m: 5 }}></Box>
+
+            {/* <Divider variant="middle" /> */}
+            <Box sx={{ m: 6 }}></Box>
+
             <Box textAlign={'center'} sx={{ m: 3 , alignItems: "center"}}>
                 <Button variant="contained" size='large'>
                   Request an Appointment
                 </Button>
               </Box>
-              <Divider variant="middle" />
+              
 
 
         </Container>
